@@ -1,0 +1,10 @@
+{"event_id":"canary-a-health-early","rollout_id":"edge-api-2026-08","step":"canary","target":"api-a","kind":"health_passed","attempt":1,"lease_epoch":3,"occurred_at":"2026-08-23T09:00:00Z"}
+{"event_id":"canary-a-start-1","rollout_id":"edge-api-2026-08","step":"canary","target":"api-a","kind":"deploy_started","attempt":1,"lease_epoch":3,"occurred_at":"2026-08-23T08:55:00Z"}
+{"event_id":"canary-a-start-1","rollout_id":"edge-api-2026-08","step":"canary","target":"api-a","kind":"deploy_started","attempt":1,"lease_epoch":3,"occurred_at":"2026-08-23T08:55:00Z"}
+{"event_id":"canary-a-failed-1","rollout_id":"edge-api-2026-08","step":"canary","target":"api-a","kind":"health_failed","attempt":1,"lease_epoch":3,"occurred_at":"2026-08-23T08:56:00Z"}
+{"event_id":"canary-a-rollback-start","rollout_id":"edge-api-2026-08","step":"canary","target":"api-a","kind":"rollback_started","attempt":1,"lease_epoch":3,"occurred_at":"2026-08-23T08:57:00Z"}
+{"event_id":"canary-a-rollback-done","rollout_id":"edge-api-2026-08","step":"canary","target":"api-a","kind":"rollback_completed","attempt":1,"lease_epoch":3,"occurred_at":"2026-08-23T08:58:00Z"}
+{"event_id":"canary-a-start-2","rollout_id":"edge-api-2026-08","step":"canary","target":"api-a","kind":"deploy_started","attempt":2,"lease_epoch":3,"occurred_at":"2026-08-23T08:59:00Z"}
+{"event_id":"canary-a-health-2","rollout_id":"edge-api-2026-08","step":"canary","target":"api-a","kind":"health_passed","attempt":2,"lease_epoch":3,"occurred_at":"2026-08-23T09:00:00Z"}
+{"event_id":"canary-b-stale-start","rollout_id":"edge-api-2026-08","step":"canary","target":"api-b","kind":"deploy_started","attempt":1,"lease_epoch":7,"occurred_at":"2026-08-23T09:01:00Z"}
+{"event_id":"canary-b-current-start","rollout_id":"edge-api-2026-08","step":"canary","target":"api-b","kind":"deploy_started","attempt":1,"lease_epoch":8,"occurred_at":"2026-08-23T09:02:00Z"}

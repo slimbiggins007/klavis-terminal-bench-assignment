@@ -1,0 +1,24 @@
+{
+  "rollout_id": "edge-api-2026-08",
+  "as_of": "2026-08-23T17:00:00Z",
+  "steps": [
+    {
+      "name": "canary",
+      "targets": ["api-a", "api-b"],
+      "depends_on": [],
+      "max_parallel": 1
+    },
+    {
+      "name": "wave-1",
+      "targets": ["api-c", "api-d"],
+      "depends_on": ["canary"],
+      "max_parallel": 2
+    }
+  ],
+  "leases": [
+    {"target": "api-a", "owner": "controller-7", "epoch": 3, "expires_at": "2026-08-23T18:00:00Z"},
+    {"target": "api-b", "owner": "controller-7", "epoch": 8, "expires_at": "2026-08-23T18:00:00Z"},
+    {"target": "api-c", "owner": "controller-7", "epoch": 2, "expires_at": "2026-08-23T18:00:00Z"},
+    {"target": "api-d", "owner": "controller-7", "epoch": 2, "expires_at": "2026-08-23T18:00:00Z"}
+  ]
+}

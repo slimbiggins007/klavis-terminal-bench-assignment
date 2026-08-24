@@ -1,0 +1,20 @@
+# The compatibility oracle lives in an isolated sidecar so its lifetime query
+# budget persists across every client process started by the agent.
+services:
+  main:
+    network_mode: "service:journal-guard-service"
+    depends_on:
+      journal-guard-service:
+        condition: service_healthy
+
+  journal-guard-service:
+    build:
+      context: ./guard-service
+    environment:
+      - GUARD_QUERY_BUDGET=96
+    healthcheck:
+      test: ["CMD", "/guard-server", "--healthcheck"]
+      interval: 1s
+      timeout: 2s
+      retries: 30
+      start_period: 2s
