@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 880" preserveAspectRatio="xMidYMid meet">
+<style>
+  text { font-family: "Google Sans Code", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #0a0a0a; }
+  .group-caption { font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; fill: #fafafa; }
+  .group-count { font-weight: 500; fill: #fafafa; fill-opacity: 0.72; }
+  .leaf-name { font-weight: 500; }
+  .leaf-count { font-weight: 400; fill-opacity: 0.55; }
+  .group-hdr { fill: #0a0a0a; stroke: #ffffff; stroke-width: 3; }
+  .leaf-rect { fill: #f3f3f3; stroke: #ffffff; stroke-width: 3; }
+</style>
+<rect width="1200" height="880" fill="#ffffff"/>
+<rect class="group-hdr" x="0" y="0" width="383" height="44"/>
+<rect class="group-hdr" x="383" y="0" width="511" height="44"/>
+<rect class="group-hdr" x="894" y="0" width="306" height="44"/>
+<rect class="group-hdr" x="0" y="583" width="500" height="44"/>
+<rect class="group-hdr" x="500" y="583" width="250" height="44"/>
+<rect class="group-hdr" x="750" y="583" width="250" height="44"/>
+<rect class="group-hdr" x="1000" y="583" width="200" height="44"/>
+<rect class="leaf-rect" x="0" y="44" width="383" height="114"/>
+<text class="leaf-name" x="8" y="66.0" font-size="16">Chemistry</text>
+<text class="leaf-count" x="375" y="66" text-anchor="end" font-size="16">4</text>
+<rect class="leaf-rect" x="0" y="161" width="383" height="91"/>
+<text class="leaf-name" x="8" y="183.0" font-size="16">Biology</text>
+<text class="leaf-count" x="375" y="183" text-anchor="end" font-size="16">3</text>
+<rect class="leaf-rect" x="0" y="255" width="383" height="92"/>
+<text class="leaf-name" x="8" y="277.0" font-size="16">Math</text>
+<text class="leaf-count" x="375" y="277" text-anchor="end" font-size="16">3</text>
+<rect class="leaf-rect" x="0" y="350" width="383" height="71"/>
+<text class="leaf-name" x="8" y="372.0" font-size="16">Physics</text>
+<text class="leaf-count" x="375" y="372" text-anchor="end" font-size="16">2</text>
+<rect class="leaf-rect" x="0" y="424" width="383" height="51"/>
+<text class="leaf-name" x="8" y="446.0" font-size="16">Earth</text>
+<text class="leaf-count" x="375" y="446" text-anchor="end" font-size="16">1</text>
+<rect class="leaf-rect" x="0" y="478" width="383" height="51"/>
+<text class="leaf-name" x="8" y="500.0" font-size="16">Linguistics</text>
+<text class="leaf-count" x="375" y="500" text-anchor="end" font-size="16">1</text>
+<rect class="leaf-rect" x="0" y="532" width="383" height="51"/>
+<text class="leaf-name" x="8" y="554.0" font-size="16">Robotics</text>
+<text class="leaf-count" x="375" y="554" text-anchor="end" font-size="16">1</text>
+<rect class="leaf-rect" x="383" y="44" width="511" height="118"/>
+<text class="leaf-name" x="391" y="66.0" font-size="16">Systems</text>
+<text class="leaf-count" x="886" y="66" text-anchor="end" font-size="16">5</text>
+<rect class="leaf-rect" x="383" y="165" width="511" height="98"/>
+<text class="leaf-name" x="391" y="187.0" font-size="16">Algorithms</text>
+<text class="leaf-count" x="886" y="187" text-anchor="end" font-size="16">4</text>
+<rect class="leaf-rect" x="383" y="266" width="511" height="98"/>
+<text class="leaf-name" x="391" y="288.0" font-size="16">Frontend</text>
+<text class="leaf-count" x="886" y="288" text-anchor="end" font-size="16">4</text>
+<rect class="leaf-rect" x="383" y="367" width="511" height="81"/>
+<text class="leaf-name" x="391" y="389.0" font-size="16">Data engineering</text>
+<text class="leaf-count" x="886" y="389" text-anchor="end" font-size="16">3</text>
+<rect class="leaf-rect" x="383" y="451" width="511" height="81"/>
+<text class="leaf-name" x="391" y="473.0" font-size="16">Databases</text>
+<text class="leaf-count" x="886" y="473" text-anchor="end" font-size="16">3</text>
+<rect class="leaf-rect" x="383" y="535" width="511" height="48"/>
+<text class="leaf-name" x="391" y="557.0" font-size="16">Languages</text>
+<text class="leaf-count" x="886" y="557" text-anchor="end" font-size="16">1</text>
+<rect class="leaf-rect" x="894" y="44" width="306" height="168"/>
+<text class="leaf-name" x="902" y="66.0" font-size="16">Evaluation</text>
+<text class="leaf-count" x="1192" y="66" text-anchor="end" font-size="16">4</text>
+<rect class="leaf-rect" x="894" y="215" width="306" height="166"/>
+<text class="leaf-name" x="902" y="237.0" font-size="16">Inference</text>
+<text class="leaf-count" x="1192" y="237" text-anchor="end" font-size="16">4</text>
+<rect class="leaf-rect" x="894" y="384" width="306" height="131"/>
+<text class="leaf-name" x="902" y="406.0" font-size="16">Training</text>
+<text class="leaf-count" x="1192" y="406" text-anchor="end" font-size="16">3</text>
+<rect class="leaf-rect" x="894" y="518" width="306" height="65"/>
+<text class="leaf-name" x="902" y="540.0" font-size="16">Kernels</text>
+<text class="leaf-count" x="1192" y="540" text-anchor="end" font-size="16">1</text>
+<rect class="leaf-rect" x="0" y="627" width="500" height="38"/>
+<text class="leaf-name" x="8" y="649.0" font-size="16">Claims</text>
+<text class="leaf-count" x="492" y="649" text-anchor="end" font-size="16">3</text>
+<rect class="leaf-rect" x="0" y="668" width="500" height="35"/>
+<text class="leaf-name" x="8" y="690.0" font-size="16">Logistics</text>
+<text class="leaf-count" x="492" y="690" text-anchor="end" font-size="16">2</text>
+<rect class="leaf-rect" x="0" y="706" width="500" height="32"/>
+<text class="leaf-name" x="8" y="728.0" font-size="16">Compliance</text>
+<text class="leaf-count" x="492" y="728" text-anchor="end" font-size="16">1</text>
+<rect class="leaf-rect" x="0" y="741" width="500" height="32"/>
+<text class="leaf-name" x="8" y="763.0" font-size="16">Deployment systems</text>
+<text class="leaf-count" x="492" y="763" text-anchor="end" font-size="16">1</text>
+<rect class="leaf-rect" x="0" y="776" width="500" height="33"/>
+<text class="leaf-name" x="8" y="798.0" font-size="16">Finance</text>
+<text class="leaf-count" x="492" y="798" text-anchor="end" font-size="16">1</text>
+<rect class="leaf-rect" x="0" y="812" width="500" height="33"/>
+<text class="leaf-name" x="8" y="834.0" font-size="16">Marketing</text>
+<text class="leaf-count" x="492" y="834" text-anchor="end" font-size="16">1</text>
+<rect class="leaf-rect" x="0" y="848" width="500" height="32"/>
+<text class="leaf-name" x="8" y="870.0" font-size="16">Supply chain</text>
+<text class="leaf-count" x="492" y="870" text-anchor="end" font-size="16">1</text>
+<rect class="leaf-rect" x="500" y="627" width="250" height="94"/>
+<text class="leaf-name" x="508" y="649.0" font-size="16">Cryptography</text>
+<text class="leaf-count" x="742" y="649" text-anchor="end" font-size="16">2</text>
+<rect class="leaf-rect" x="500" y="724" width="250" height="92"/>
+<text class="leaf-name" x="508" y="746.0" font-size="16">Forensics</text>
+<text class="leaf-count" x="742" y="746" text-anchor="end" font-size="16">2</text>
+<rect class="leaf-rect" x="500" y="819" width="250" height="61"/>
+<text class="leaf-name" x="508" y="841.0" font-size="16">AppSec</text>
+<text class="leaf-count" x="742" y="841" text-anchor="end" font-size="16">1</text>
+<rect class="leaf-rect" x="750" y="627" width="250" height="182"/>
+<text class="leaf-name" x="758" y="649.0" font-size="16">CAD</text>
+<text class="leaf-count" x="992" y="649" text-anchor="end" font-size="16">4</text>
+<rect class="leaf-rect" x="750" y="812" width="250" height="68"/>
+<text class="leaf-name" x="758" y="834.0" font-size="16">RTL</text>
+<text class="leaf-count" x="992" y="834" text-anchor="end" font-size="16">1</text>
+<rect class="leaf-rect" x="1000" y="627" width="200" height="126"/>
+<text class="leaf-name" x="1008" y="649.0" font-size="16">Design</text>
+<text class="leaf-count" x="1192" y="649" text-anchor="end" font-size="16">2</text>
+<rect class="leaf-rect" x="1000" y="756" width="200" height="124"/>
+<text class="leaf-name" x="1008" y="778.0" font-size="16">Music</text>
+<text class="leaf-count" x="1192" y="778" text-anchor="end" font-size="16">2</text>
+<text class="group-caption" x="10" y="29" font-size="18">Science</text>
+<text class="group-count" x="373" y="29" text-anchor="end" font-size="18">15</text>
+<text class="group-caption" x="393" y="29" font-size="18">Software</text>
+<text class="group-count" x="884" y="29" text-anchor="end" font-size="18">20</text>
+<text class="group-caption" x="904" y="29" font-size="18">ML</text>
+<text class="group-count" x="1190" y="29" text-anchor="end" font-size="18">12</text>
+<text class="group-caption" x="10" y="612" font-size="18">Operations</text>
+<text class="group-count" x="490" y="612" text-anchor="end" font-size="18">10</text>
+<text class="group-caption" x="510" y="612" font-size="18">Security</text>
+<text class="group-count" x="740" y="612" text-anchor="end" font-size="18">5</text>
+<text class="group-caption" x="760" y="612" font-size="18">Hardware</text>
+<text class="group-count" x="990" y="612" text-anchor="end" font-size="18">5</text>
+<text class="group-caption" x="1010" y="612" font-size="18">Media</text>
+<text class="group-count" x="1190" y="612" text-anchor="end" font-size="18">4</text>
+</svg>
